@@ -101,12 +101,20 @@ footer {
     flex-wrap: wrap;
     gap: 15px;
     margin-top: 15px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .project-images img {
+    display: block;
     width: 100%;
-    max-width: 350px;
+    max-width: 300px;
     height: auto;
+    object-fit: contain;
     border-radius: 8px;
     border: 1px solid #ccc;
+    box-sizing: border-box;
 }
+
