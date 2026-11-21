@@ -95,3 +95,18 @@ footer {
         padding: 20px;
     }
 }
+
+.project-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.project-images img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
