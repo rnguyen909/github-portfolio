@@ -155,3 +155,18 @@ footer {
     margin: 20px auto;
     border: 3px solid #3b82f6;
 }
+
+.resume-button {
+    display: inline-block;
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 15px 0 25px;
+    font-weight: bold;
+}
+
+.resume-button:hover {
+    background-color: #2563eb;
+}
