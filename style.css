@@ -118,3 +118,32 @@ footer {
     box-sizing: border-box;
 }
 
+
+/* Keep project screenshots inside their section */
+#projects {
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.project-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.project-images img {
+    display: block;
+    width: 100%;
+    max-width: 300px !important;
+    height: auto;
+    object-fit: contain;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+
