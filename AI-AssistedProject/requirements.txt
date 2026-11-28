@@ -1,1 +1,4 @@
-The python dependencies will be here
+Packages:
+    streamlit
+    python-dotenv
+    google-genai
