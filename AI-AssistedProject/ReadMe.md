@@ -54,3 +54,10 @@ Google Gen AI SDK
 Python-dotenv
 Github and Git
 
+Future Enhancements:
+After getting suggestions and recommendations, the application should automatically rewrite the data. 
+Be able to download a version of the resume that is edited from the suggestions and recommendations. 
+Expand on the feedback to be more detailed. 
+Provide a cleaner interface that is more pleasing to the eye with nice colors and graphics. 
+Have a login option to be able to store resumes. 
+
